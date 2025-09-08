@@ -68,4 +68,16 @@ faq.forEach(faqitem => {
 
     })
 })
-// USER_VID_INPUT SECTION
+
+// nav hamburger
+const navburger = document.querySelectorAll("#nav");
+navburger.forEach(navitem => {
+    const hamburger = navitem.querySelector(".navicon");
+    const hammenu = navitem.querySelector("#nav-toggle-menu");
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle("active");
+        hammenu.classList.toggle("active");
+        
+
+    })
+})

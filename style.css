@@ -15,12 +15,26 @@ html, body{
     background-color:#0D1117;
     font-family: Inter Tight Thin;
     letter-spacing: -0.5px;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 8px;
+    /* border-radius: 12px; */
+    /* background-color: #FFFFFF; */
+}
+::-webkit-scrollbar-thumb{
+    background-color: #21262D;
+    border-radius: 12px;
+}    
+::-webkit-scrollbar-thumb:hover{
+    background-color: #FFFFFF;
 }
 *::selection{
     background-color: #222a39;
     color: white;
 }
-/*NAVBAR*/
+
+/*NAVBAR-------------------------------------------------------------------------------------------------------------------------------*/
 #nav{
     background-color: #0D1117;
     position: fixed;
@@ -36,7 +50,7 @@ html, body{
     box-sizing: border-box;
     width: 100%;
     height: 44px;
-    max-width: 1024px;
+    max-width: 1069px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,9 +95,57 @@ html, body{
     padding: 4px 8px;
     border-radius: 8px;
 }
+.nav-toggle{
+    display: none;
+
+}
+
+.navicon{
+    cursor: pointer;
+}
+.navicon2{
+    display: none;
+}
+
+#nav-toggle-menu{
+    background-color: #0D1117;
+    width: 500px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    display: none;
+    z-index: -1000;
+}
+#nav-toggle-menu .nav-toggle-sidebar{
+    margin-top: 60px;
+    padding: 48px;
+}
+
+#nav-toggle-menu .nav-toggle-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+}
+#nav-toggle-menu .nav-toggle-sidebar li{
+    border-bottom: 1px solid #21262D;
+    padding: 16px 16px 16px 16px;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#nav-toggle-menu .nav-toggle-sidebar li:hover{
+    background-color: #222a39;
+    border-radius: 8px;
+}
+#nav-toggle-menu.active {
+    display: block;
+}
+
 .show{
     width: 100%;
-    max-width: 1024px;
+    max-width: 1069px;
     height: 256px;
     background-color:#0D1117;
     border-bottom: 1px solid #21262D;
@@ -118,12 +180,16 @@ html, body{
     font-weight: 500;
 }
 
-/*HERO*/
+/*HERO------------------------------------------------------------------------------------------------------------------------*/
 #hero{
     margin-top: 96px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 #hero .hcont{
+    max-width: 1441px;
+    padding: 0px 144px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,7 +223,7 @@ html, body{
 }
 #hero .topcon .mtitle h1{
     text-align: center;
-    font-size: 4vw;
+    font-size: 3rem;
     font-weight: 600;
     line-height: 1;
 }
@@ -167,7 +233,7 @@ html, body{
     font-style: italic;
 }
 #hero .topcon .mtitle h2{
-    font-size: 1vw;
+    font-size: 1rem;
     text-align: center;
 }
 #hero .cta{
@@ -207,12 +273,13 @@ html, body{
 #hero .himg{
     display: flex;
     justify-content: center;
+  
     box-sizing: border-box;
 }
 #hero .himg img{
     border: 1px solid #21262D;
     width: 100%;
-    max-width: 1024px;
+    max-width: 1441px;
     border-radius: 12px;
 }
 /*AFTERHERO*/
@@ -224,6 +291,7 @@ html, body{
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    padding: 0px 144px;
 }
 #afterhero .ttext h2{
     font-size: 1.5rem;
@@ -242,14 +310,20 @@ html, body{
     height: 70%;
     opacity: 0.8;
 }
-/*tuthighsection*/
+
+
+/*tuthighsection-----------------------------------------------------------------------------------------------------------------------*/
 #tuthighsection {
     margin-top: 192px;
     width: 100%;
-    box-sizing: border-box;
+    padding: 0px 144px;
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
 }
 #tuthighsection .tuthti{
-    padding: 0px 208px;
+    /* width: 100%; */
+    max-width: 1441px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,8 +331,7 @@ html, body{
 }
 #tuthighsection .tuthti .tuttext{
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
+
 }
 #tuthighsection .tuthti .tuttext h2{
     font-size: 2rem;
@@ -267,6 +340,8 @@ html, body{
 
 #tuthighsection .tuthti .vvthumbnail{
     width: 100%;
+    display: flex;
+    justify-content: center;
     /* background-color: red; */
 }
 #tuthighsection .tuthti .vthumbnail{
@@ -281,7 +356,7 @@ html, body{
     cursor: pointer;
 }
 .thumbnaill img{
-    object-fit: cover center;
+    /* object-fit: cover center; */
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -296,12 +371,18 @@ html, body{
     padding: 8px 0;
     font-size: 1rem;
 }
+
+/*FAQS---------------------------------------------------------------------------------------------------------------------------------*/
 #faqs{
     margin-top: 212px;
     width: 100%;
-    padding: 0px 208px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 144px;
 }
 #faqs .faq{
+    width: 100%;
+    max-width: 1441px;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -361,20 +442,24 @@ hr{
     display: block;
 }
 
-/*user-vidinput section*/
+/*user-vidinput section----------------------------------------------------------------------------------------------------------------*/
 
 #user-vidinput{
     margin-top: 192px;
     width: 100%;
-    padding: 0px 208px;
+    display: flex;
+    justify-content: center;
+    padding: 0px 144px;
 }
 #user-vidinput .u-txt{
+    max-width: 1441px;
     display: flex;
     flex-direction: column;
     gap: 48px;
 }
 .u-txt .u-top{
     display: flex;
+    justify-content: start;
 }
 .u-txt .u-top h2{
     font-size: 2rem;
@@ -388,7 +473,7 @@ hr{
     justify-content: center;
     align-items: start;
     width: 100%;
-    height: 800px;
+    height: 100%;
     /* background-color: red; */
     border: 2px solid #21262D;
     border-radius: 8px;
@@ -476,13 +561,19 @@ hr{
     font-style: italic;
     font-weight: 500;
 }
-/*Footer*/
+
+
+/*Footer------------------------------------------------------------------------------------------------------------------------------- */
 #p-footer{
     margin-top: 192px;
     width: 100%;
-    padding: 0px 208px;   
+    padding: 0px 144px; 
+    display: flex;
+    justify-content: center;  
 }
 #p-footer .p-footer-container{
+    width: 100%;
+    max-width: 1441px;
     border-top: 2px solid #21262D;
     display: flex;
     flex-direction: column;
@@ -524,8 +615,7 @@ hr{
 }
 
 #p-footer .p-footer-container .p-footer-mcontent h2{
-    font-size: 12px
-    ;
+    font-size: 12px;
 }
 
 

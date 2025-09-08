@@ -1,0 +1,254 @@
+@media screen and (max-width:833px) {
+    /*nav*/
+    #nav{
+        padding: 0px 24px;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .subnavc{
+        display: none;
+    }
+    .subnavr{
+        display: none;
+    }
+    
+    /*hero------------------*/
+    #hero .hcont{
+        padding: 0px 24px;
+
+    } 
+    .cta .primbtn{
+    font-size: 12px;
+    }
+    .cta .secbtn{
+    font-size: 12px;
+    }
+    #hero .topcon .mtitle h1{
+        font-size: 2.5rem;
+    }
+    #hero .topcon .mtitle h2{
+    font-size: 12px;
+    }
+    /*tuthigh----------------------------*/
+    #tuthighsection{
+        padding: 0px 24px;
+    } 
+     
+    #tuthighsection .tuthti .vthumbnail{
+        grid-template-columns: repeat(2, minmax(220px,1fr));
+    }
+    /*FAQ---------------------------------*/
+    #faqs{
+        padding: 0px 24px;
+    }
+    /*userinputvideos----------------------------------*/
+    #user-vidinput{
+        padding: 0px 24px;
+    }
+    .u-txt .u-bottom .u-rect .u-rect-inner label{
+        font-size: 1rem;
+    }
+    /*footer-------------------------------------------*/
+    #p-footer{
+        padding: 0px 24px;
+    }
+    #p-footer .p-footer-container .p-footer-content{
+        /* justify-content: center; */
+        align-items: start;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #p-footer .p-footer-container .p-footer-content .Listtt h2{
+        font-size: 12px;
+    }
+    #p-footer .p-footer-container .p-footer-content .Listtt li{
+        font-size: 12px;
+    }
+    
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+@media screen and (max-width:581px) {
+    #hero .hcont{
+        padding: 0px 24px;
+
+    }
+    
+    /*tuthigh----------------------------*/
+    #tuthighsection{
+        padding: 0px 24px;
+    } 
+    #tuthighsection .tuthti .vthumbnail{
+        grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+    }
+     
+    /*FAQ---------------------------------*/
+    #faqs{
+        padding: 0px 24px;
+    }
+    /*userinputvideos----------------------------------*/
+    #user-vidinput{
+        padding: 0px 24px;
+    }
+    .u-txt .u-bottom{
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+
+    }
+    .u-bottom .u-left-rect{
+        gap: 16px;
+    }
+
+
+    
+    /*footer-------------------------------------------*/
+    #p-footer{
+        padding: 0px 24px;
+    }
+    #p-footer .p-footer-container .p-footer-content{
+        flex-wrap: wrap;
+        row-gap: 24px;
+        column-gap: 24px;
+    } 
+
+
+}
+
+
+@media screen and (max-width:485px) {
+    #hero .hcont{
+        padding: 0px 16px;
+
+    } 
+    /*tuthigh----------------------------*/
+    #tuthighsection{
+        padding: 0px 16px;
+    } 
+    #tuthighsection .tuthti .vthumbnail{
+        grid-template-columns: repeat(auto-fill, minmax(160px,1fr));
+    }
+     
+    /*FAQ---------------------------------*/
+    #faqs{
+        padding: 0px 16px;
+    }
+    /*userinputvideos----------------------------------*/
+    #user-vidinput{
+        padding: 0px 16px;
+    }
+    
+    /*footer-------------------------------------------*/
+    #p-footer{
+        padding: 0px 16px;
+    }
+    #p-footer .p-footer-container .p-footer-content{
+        flex-wrap: wrap;
+        row-gap: 16px;
+        column-gap: 16px;
+    }  
+    #nav-toggle-menu{
+        width: 100%;
+    }
+    .nav-toggle-sidebar{
+        margin-top: 30px;
+        padding: 24px;
+    }
+    #nav-toggle-menu .nav-toggle-sidebar ul{
+        gap: 32px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:320px) {
+    #hero .hcont{
+        padding: 0px 16px;
+
+    
+    }
+    #nav-toggle-menu{
+        width: 100%;
+    }
+    .nav-toggle-sidebar{
+        margin-top: 30px;
+        padding: 24px;
+    } 
+
+
+
+
+
+
+}
+         
+
+
+
+
+
+
+/*SPecific----------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width:1200px){
+      /*nav*/
+    #nav{
+        padding: 0px 56px;
+    }
+    
+    /*hero------------------*/
+    #hero .hcont{
+        padding: 0px 56px;
+
+    } 
+
+    /*tuthigh----------------------------*/
+    #tuthighsection{
+        padding: 0px 56px;
+    } 
+     
+    /*FAQ---------------------------------*/
+    #faqs{
+        padding: 0px 56px;
+    }
+    /*userinputvideos----------------------------------*/
+    #user-vidinput{
+        padding: 0px 56px;
+    }
+    
+    /*footer-------------------------------------------*/
+    #p-footer{
+        padding: 0px 56px;
+    }
+    #p-footer .p-footer-container .p-footer-content{
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
+    
+    
+
+
+
+
+
+
+}
+   
