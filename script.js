@@ -1,3 +1,5 @@
+alert("Some of the Links may not work as this project is still in works. Thanks for visiting.")
+
 function showit() {
     let output1 = `<div class="show">
     <div class="showitcontent">

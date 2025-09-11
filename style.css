@@ -490,7 +490,7 @@ hr{
     display: flex;
     flex-direction: column;
     padding: 24px;
-    justify-content: space-between;
+    gap: 96px;
 }
 .u-txt .u-bottom .u-rect .u-rect-up {
     display: flex;
@@ -625,23 +625,6 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*EXPLORE.HTML*/
 #main-explore #heroexplore{
     margin-top: 96px;
@@ -653,7 +636,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 48px;
 }
 #heroexplore .contE .topE{
     /* background-color: red; */
@@ -670,22 +653,28 @@ hr{
     font-family: Archivo narrow;
     font-style: italic;
 }
+
 /*aheroexplore*/
 #aheroexplore{
     margin-top: 192px;
     width: 100%;
     box-sizing: border-box;
-}
-#aheroexplore .aherocont{
-    height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: red;
+    gap: 192px;
+}
+#aheroexplore .aherocont{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
     padding: 0px 208px;
     gap: 48px;
 }
 .aherocont .ahtext{
     display: flex;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #FFFFFF;
 }
 .aherocont .ahtext h2{
     font-size: 2rem; 
@@ -698,11 +687,6 @@ hr{
     grid-gap: 96px 16px;
     object-fit: cover;
     aspect-ratio: 16 / 9;
-}
-@media only screen and (max-width: 768px){
-  .aherocont .videot {
-    grid-template-columns: repeat(auto-fill, minmax(320px,1fr) );
-  }
 }
 .aherocont .videot .Ethumbnaill{
     cursor: pointer;
