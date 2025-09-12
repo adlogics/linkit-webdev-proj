@@ -79,7 +79,5 @@ navburger.forEach(navitem => {
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle("active");
         hammenu.classList.toggle("active");
-        
-
     })
 })
