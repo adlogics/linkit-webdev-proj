@@ -1,4 +1,4 @@
-alert("Some of the Links may not work as this project is still in works. Thanks for visiting.")
+alert("Some of the Links may not work as this project is still in works. The website is responsive and tested with different devices; if you still see some issue viewing please reload the page once. Thanks for your time and visit.")
 
 function showit() {
     let output1 = `<div class="show">
