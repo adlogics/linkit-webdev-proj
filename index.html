@@ -1,304 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media-queries.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Linkit - Home</title>
-</head>
-<body>
-    <div id="main">
-        <nav id="nav">
-            <div class="didntopen">
-                <div class="subnavl">
-                <div class="logo">
-                    <a href="/index.html"><img src="./Images/Logo.png" alt="logoimg" ></a>   
-                </div>
-                </div>
-                <div class="subnavc">
-                <div class="links" onmouseleave="closeit()">
-                    <li onmouseenter="showit()">Techstack</li>
-                    <li onmouseenter="donedone()">About</li>
-                    <li onmouseenter="donedone()">Newsletter</li>
-                </div>
-                </div>
-                <div class="subnavr">
-                <div class="navcta">
-                    <a href="/explore.html"><button class="primbtn">Explore Tutorials</button></a>
-                </div>
-                </div>
-                <div class="nav-toggle">
-                    <div class="navicono">
-                        <i class="navicon ri-menu-line"></i>
-                        <i class="navicon2 ri-close-large-line"></i>
-                    </div>
-                </div>
-                
+  </head>
+  <body>
+    <div id="root">
+      <nav id="nav">
+        <div class="didntopen">
+          <div class="subnavl">
+            <div class="logo">
+              <a href="/index.html"
+                ><img src="./Images/Logo.png" alt="logoimg"
+              /></a>
             </div>
-            <div id="nav-toggle-menu">
-            <div class="nav-toggle-sidebar">
-                <ul>
-                    <li>Web Development</li>
-                    <li>Artificial Intelligence (AI)</li>
-                    <li>Machine Learning (ML)</li>
-                    <li>Data Science</li>
-                    <li>Mobile App Development</li>
-                </ul>
+          </div>
+          <div class="subnavc">
+            <div class="links" onmouseleave="closeit()">
+              <li onmouseenter="showit()">Techstack</li>
+              <li onmouseenter="donedone()">About</li>
+              <li onmouseenter="donedone()">Newsletter</li>
             </div>
+          </div>
+          <div class="subnavr">
+            <div class="navcta">
+              <a href="/explore.html"
+                ><button class="primbtn">Explore Tutorials</button></a
+              >
+            </div>
+          </div>
+          <div class="nav-toggle">
+            <div class="navicono">
+              <i class="navicon ri-menu-line"></i>
+              <i class="navicon2 ri-close-large-line"></i>
+            </div>
+          </div>
         </div>
-            
-           <div id="showitog" onmouseleave="donedone()"></div>
-        </nav>
-        
-        <div id="hero">
-            <div class="hcont">
-                <div class="topcon">
-                <div class="users">
-                    <img src="./Images/usersn.png" alt="usersimgaes">
-                    <h2>People use it, I dont lie!</h2>
-                </div>
-                <div class="mtitle">
-                    <h1>Find <span>Better Tutorials</span> that <br> actually help you <Span>Create</Span></h1>
-                    <h2>The smart way to find tutorials that inspire and teach.</h2>
-                </div>
-                </div>
-                <div class="cta">
-                    <a href="/explore.html"><button class="primbtn">Explore Tutorials</button></a>
-                    <a href="https://youtu.be/5qlixaV9F7Q?si=5GQENWx_IKTKKObb"><button class="secbtn">Not in a mood</button></a>
+        <div id="nav-toggle-menu">
+          <div class="nav-toggle-sidebar">
+            <ul>
+              <li>Web Development</li>
+              <li>Artificial Intelligence (AI)</li>
+              <li>Machine Learning (ML)</li>
+              <li>Data Science</li>
+              <li>Mobile App Development</li>
+            </ul>
+          </div>
+        </div>
 
-                </div>
-                <div class="himg">
-                    <img src="./Images/IMGHERO.png" alt="">
-                </div> 
-            </div>   
+        <div id="showitog" onmouseleave="donedone()"></div>
+      </nav>
+      <div id="main">
+        <div id="hero">
+          <div class="hcont">
+            <div class="topcon">
+              <div class="users">
+                <img src="./Images/usersn.png" alt="usersimgaes" />
+                <h2>People use it, I dont lie!</h2>
+              </div>
+              <div class="mtitle">
+                <h1>
+                  Find <span>Better Tutorials</span> that <br />
+                  actually help you <span>Create</span>
+                </h1>
+                <h2>The smart way to find tutorials that inspire and teach.</h2>
+              </div>
+            </div>
+            <div class="cta">
+              <a href="/explore.html"
+                ><button class="primbtn">Explore Tutorials</button></a
+              >
+              <a href="https://youtu.be/5qlixaV9F7Q?si=5GQENWx_IKTKKObb"
+                ><button class="secbtn">Not in a mood</button></a
+              >
+            </div>
+            <div class="himg">
+              <img src="./Images/Mockup.png" alt="" />
+            </div>
+          </div>
         </div>
         <div id="afterhero">
+          <div id="afterhero-cont">
             <div class="ttext">
-                <h2>You can reach anywhere with proper grind of your own</h2>
+              <h2>Every move counts. Every grind matters</h2>
             </div>
             <div class="logolio">
-                <img src="./Images/MAANG.png" alt="">
+              <img src="./Images/MAANG.png" alt="" />
             </div>
             <div class="ttext">
-                <h5>+many more companies</h5>
+              <h5>+many more companies</h5>
             </div>
+          </div>
         </div>
         <div id="tuthighsection">
-            <div class="tuthti">
-                <div class="tuttext"><h2>Highlights for you<i class="ri-arrow-right-s-line"></i></h2></div>
-                <div class="vvthumbnail">
-                    <div class="vthumbnail">
-                     <div class="thumbnaill" onclick="window.open('https://www.youtube.com/watch?v=xTtL8E4LzTQ')">
-                        <img src="https://i.ytimg.com/vi/xTtL8E4LzTQ/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDv43iFM6wYp9Za8tbL9ZH-dwmgCg" alt="">
-                        <h3>Java Full Course for free ☕ (2025)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/EerdGm-ehJQ?si=y9xNKqWc8CBydkdy')">
-                        <img src="https://i.ytimg.com/vi/EerdGm-ehJQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqM17HAWKZZN44Ovb0iXWIzxF4iQ" alt="">
-                        <h3>JavaScript Tutorial Full Course - Beginner to Pro</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/8DvywoWv6fI?si=t8LYQNayCxUahUos')">
-                        <img src="https://i.ytimg.com/vi/8DvywoWv6fI/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqSQGwljOFUPR_HOb9Y1NNlzWg2w" alt="">
-                        <h3>Python for Everybody - Full University Python Course</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/PSNXoAs2FtQ?si=KoJvexnLll_3ppR3')">
-                        <img src="https://i.ytimg.com/vi/PSNXoAs2FtQ/hq720.jpg?sqp=-oaymwEcCK4FEIIDSEbyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoLXsfvIpnjwpClZAOU4WNYkGlpQ" alt="">
-                        <h3>Data Analyst Bootcamp for Beginners (2025)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/0sOvCWFmrtA?si=YHWhn4W-DjagzhP6')">
-                        <img src="https://i.ytimg.com/vi/0sOvCWFmrtA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBJUHad0KnI2Uv-2egmrlaCh34QFA" alt="">
-                        <h3>Python API Development - Comprehensive Course for Beginners (2025)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/hlGoQC332VM?si=OuGpvslqR6x2w1Uu')">
-                        <img src="https://img.youtube.com/vi/hlGoQC332VM/maxresdefault.jpg" alt="">
-                        <h3>SQL - Complete Course in 3 Hours | SQL One Shot using MySQL (2025)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/4qyBjxPlEZo?si=VqY29r52yXFDuFHg')">
-                        <img src="https://img.youtube.com/vi/4qyBjxPlEZo/maxresdefault.jpg" alt="">
-                        <h3>Build an Uber Clone App with MERN Stack | Complete 11 Hour Masterclass (2025)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/NpmFbWO6HPU?si=XbyfabB8J7qxUtHh')">
-                        <img src="https://img.youtube.com/vi/NpmFbWO6HPU/maxresdefault.jpg" alt="">
-                        <h3>9 HOURS of Python Projects - From Beginner to Advanced</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/F4zr1aMevB4?si=jM68A6tCO_P2-0D4')">
-                        <img src="https://img.youtube.com/vi/F4zr1aMevB4/maxresdefault.jpg" alt="">
-                        <h3>Full Stack Web Development Full Course | Intellipaat (2025)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/yE6tIle64tU?si=J0Ra8jMox_is1eoH')">
-                        <img src="https://img.youtube.com/vi/yE6tIle64tU/maxresdefault.jpg" alt="">
-                        <h3>SQL Tutorial for Beginners (Complete Course using MySQL)</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/5ZdHfJVAY-s?si=tFNeI8fFgP5eSjIP')">
-                        <img src="https://img.youtube.com/vi/5ZdHfJVAY-s/maxresdefault.jpg" alt="">
-                        <h3>Build 25 React Projects – Tutorial</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/FkowOdMjvYo?si=BofK49A4yeD8gzub')">
-                        <img src="https://img.youtube.com/vi/FkowOdMjvYo/maxresdefault.jpg" alt="">
-                        <h3>Build and Deploy an Amazing 3D Developer Portfolio in React with Three.js</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/XZdY15sHUa8?si=7zttVzRoQ9r6RhHE')">
-                        <img src="https://img.youtube.com/vi/XZdY15sHUa8/maxresdefault.jpg" alt="">
-                        <h3>3 Python AI Projects for Beginners - Full Tutorial</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/tn07dCSFOfQ?si=EBI0w10aNgBt1QIG')">
-                        <img src="https://img.youtube.com/vi/tn07dCSFOfQ/maxresdefault.jpg" alt="">
-                        <h3>STOCK PRICE PREDICTION using Machine Learning📈 | Machine Learning Projects | GeeksforGeeks</h3>
-                     </div>
-                     <div class="thumbnaill" onclick="window.open('https://youtu.be/tn07dCSFOfQ?si=Z5HHFMfxCD1zLfyB')">
-                        <img src="https://img.youtube.com/vi/CkiXRQvz4Z4/maxresdefault.jpg" alt="">
-                        <h3>FAKE NEWS DETECTION Using MACHINE LEARNING | Machine Learning Projects | GeeksforGeeks</h3>
-                     </div>
-                    </div>
-                </div>      
+          <div class="tuthti">
+            <div class="tuttext">
+              <h2>Highlights for you<i class="ri-arrow-right-s-line"></i></h2>
             </div>
-
+            <div id="thumbnail-grid"></div>
+          </div>
         </div>
         <div id="faqs">
-            <div class="faq">
-                <div class="tfaq"><h1>Frequently asked questions</h1></div>
-                <div class="contfaq">
-                    <hr>
-                    <div class="faqline">
-                        <div class="faq-ques">
-                            <h3>Why you made this website?</h3>
-                            <i class="icono ri-add-line"></i>
-                            <i class="iconi ri-subtract-line"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <h2>Beacuse content on youtube is incredibly vast like really really vast, so to find the best of it, the real shit, no bs I created this website as an organized library where you can easily find the best and most valuable content. Just pick a shelf/category, and you’ll get the best videos ready for you to explore.</h2>
-                        </div>
-                    </div>
-                    <div class="faqline">
-                        <div class="faq-ques">
-                            <h3>Is the content only from YouTube or other platforms too?</h3>
-                            <i class="icono ri-add-line"></i>
-                            <i class="iconi ri-subtract-line"></i>
-                        </div>
-                        <div class="faq-answer">
-                            <h2>Currently, this site focuses exclusively on YouTube content to keep things simple and well-curated.</h2>
-                        </div>
-                    </div>
-                    <div class="faqline">
-                        <div class="faq-ques">
-                            <h3>Can I suggest a category or videos to add?</h3>
-                            <i class="icono ri-add-line"></i>
-                            <i class="iconi ri-subtract-line"></i>
-
-                        </div>
-                        <div class="faq-answer">
-                            <h2>Absolutely! This platform welcomes suggestions for new categories and videos. If you find great content or have ideas on how to improve the library, feel free to reach out and share your recommendations to help make this the best resource possible. Just fill up the form below.</h2>
-                        </div>
-                    </div>
-                    <div class="faqline">
-                        <div class="faq-ques">
-                            <h3>How do you decide which videos are the "best" for each category?</h3>
-                            <i class="icono ri-add-line"></i>
-                            <i class="iconi ri-subtract-line"></i>
-
-                        </div>
-                        <div class="faq-answer">
-                            <h2>Videos are selected based on a mix of factors: audience engagement, content quality, relevance, and viewer recommendations. The goal is to showcase valuable, trustworthy, and informative videos without filler or clickbait.</h2>
-                        </div>
-                    </div>
+          <div class="faq">
+            <div class="tfaq"><h1>Frequently asked questions</h1></div>
+            <div class="contfaq">
+              <hr />
+              <div class="faqline">
+                <div class="faq-ques">
+                  <h3>Why you made this website?</h3>
+                  <i class="icono ri-add-line"></i>
+                  <i class="iconi ri-subtract-line"></i>
                 </div>
+                <div class="faq-answer">
+                  <h2>
+                    Beacuse content on youtube is incredibly vast like really
+                    really vast, so to find the best of it, the real shit, no bs
+                    I created this website as an organized library where you can
+                    easily find the best and most valuable content. Just pick a
+                    shelf/category, and you’ll get the best videos ready for you
+                    to explore.
+                  </h2>
+                </div>
+              </div>
+              <div class="faqline">
+                <div class="faq-ques">
+                  <h3>
+                    Is the content only from YouTube or other platforms too?
+                  </h3>
+                  <i class="icono ri-add-line"></i>
+                  <i class="iconi ri-subtract-line"></i>
+                </div>
+                <div class="faq-answer">
+                  <h2>
+                    Currently, this site focuses exclusively on YouTube content
+                    to keep things simple and well-curated.
+                  </h2>
+                </div>
+              </div>
+              <div class="faqline">
+                <div class="faq-ques">
+                  <h3>Can I suggest a category or videos to add?</h3>
+                  <i class="icono ri-add-line"></i>
+                  <i class="iconi ri-subtract-line"></i>
+                </div>
+                <div class="faq-answer">
+                  <h2>
+                    Absolutely! This platform welcomes suggestions for new
+                    categories and videos. If you find great content or have
+                    ideas on how to improve the library, feel free to reach out
+                    and share your recommendations to help make this the best
+                    resource possible. Just fill up the form below.
+                  </h2>
+                </div>
+              </div>
+              <div class="faqline">
+                <div class="faq-ques">
+                  <h3>
+                    How do you decide which videos are the "best" for each
+                    category?
+                  </h3>
+                  <i class="icono ri-add-line"></i>
+                  <i class="iconi ri-subtract-line"></i>
+                </div>
+                <div class="faq-answer">
+                  <h2>
+                    Videos are selected based on a mix of factors: audience
+                    engagement, content quality, relevance, and viewer
+                    recommendations. The goal is to showcase valuable,
+                    trustworthy, and informative videos without filler or
+                    clickbait.
+                  </h2>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
         <div id="user-vidinput">
-            <div class="u-txt">
-                <div class="u-top">
-                    <h2>Add Something Helpful You Found <i class="dwn ri-corner-right-down-line"></i></h2>
-                </div>
-                <div class="u-bottom">
-                    <div class="u-left-rect">
-                        <h3>We also love to see your suggestions that can help other people.</h3>
-                        <h5>*Fill up the form on the right and share the link to your favorite tutorial that you actually found Helpful No BS!!</h5>
-                    </div>
-                    <div class="u-rect">
-                        <div class="u-rect-up">
-                            <div class="u-rect-inner">
-                             <label for="for-name">What should we call you?</label>
-                             <input type="text" name="Fullname" id="for-name" placeholder="Enter your name">
-                             <label for="for-email">What is your email?</label>
-                             <input type="email" name="email" id="for-email" placeholder="Enter your email" required>
-                             <label for="for-link-type">What this tutorial all about?</label>
-                             <input type="text" name="link-type" id="for-link-type" placeholder="Enter your response" required maxlength="150">
-                             <label for="for-link">Please attach the link to tutorial you find helpful!</label>
-                             <input type="url" name="link" id="for-link" placeholder="Submit button will not work" required>
-                            </div>
-                        </div>
-                        <div class="u-rect-inner-bottom">
-                             <div class="u-rect-sub">
-                             <h5>Submit Answer</h5>
-                             </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="u-txt">
+            <div class="u-top">
+              <h2>
+                Add Something Helpful You Found
+                <i class="dwn ri-corner-right-down-line"></i>
+              </h2>
             </div>
-
-
+            <div class="u-bottom">
+              <div class="u-left-rect">
+                <h3>
+                  We also love to see your suggestions that can help other
+                  people.
+                </h3>
+                <h5>
+                  *Fill up the form on the right and share the link to your
+                  favorite tutorial that you actually found Helpful No BS!!
+                </h5>
+              </div>
+              <div class="u-rect">
+                <div class="u-rect-up">
+                  <div class="u-rect-inner">
+                    <label for="for-name">What should we call you?</label>
+                    <input
+                      type="text"
+                      name="Fullname"
+                      id="for-name"
+                      placeholder="Enter your name"
+                    />
+                    <label for="for-email">What is your email?</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="for-email"
+                      placeholder="Enter your email"
+                      required
+                    />
+                    <label for="for-link-type"
+                      >What this tutorial all about?</label
+                    >
+                    <input
+                      type="text"
+                      name="link-type"
+                      id="for-link-type"
+                      placeholder="Enter your response"
+                      required
+                      maxlength="150"
+                    />
+                    <label for="for-link"
+                      >Please attach the link to tutorial you find
+                      helpful!</label
+                    >
+                    <input
+                      type="url"
+                      name="link"
+                      id="for-link"
+                      placeholder="Submit button will not work"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="u-rect-inner-bottom">
+                  <div class="u-rect-sub">
+                    <h5>Submit Answer</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <footer id="p-footer">
-            <div class="p-footer-container">
-                <div class="p-footer-content">
-                    <ul class="Listtt">
-                    <h2>Web Development</h2>
-                    <li><a href="/Web dev/webdev.html">Html & CSS</a></li>
-                    <li><a href="/Web dev/webdev.html">Javascript</a></li>
-                    <li><a href="/Web dev/webdev.html">ReactJS</a></li>
-                    <li><a href="/Web dev/webdev.html">Jquery</a></li>
-                    <li><a href="/Web dev/webdev.html">MongoDB</a></li>
-                    </ul>
-                    <ul class="Listtt">
-                    <h2>Artificial Intelligence (AI)</h2>
-                    <li>Python (TensorFlow, PyTorch)</li>
-                    <li>R</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>Julia</li>
-                    </ul>
-                    <ul class="Listtt">
-                    <h2>Machine Learning (ML)</h2>
-                    <li>Python (scikit-learn, Keras)</li>
-                    <li>R</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>MATLAB</li>
-                    </ul>
-                    <ul class="Listtt">
-                    <h2>Data Science</h2>
-                    <li>Python (pandas, NumPy, Matplotlib)</li>
-                    <li>R</li>
-                    <li>SQL</li>
-                    <li>Scala</li>
-                    <li>Julia</li>
-                    </ul>
-                    <ul class="Listtt">
-                    <h2>Mobile App Development</h2>
-                    <li>Java (Android)</li>
-                    <li>Kotlin (Android)</li>
-                    <li>Swift (iOS)</li>
-                    <li>Dart (Flutter)</li>
-                    <li>JavaScript (React Native)</li>
-                    </ul>
-                </div>
-                <div class="p-footer-mcontent">
-                    <div class="p-mcontent-top">
-                    </div>
-                    <div class="p-mcontent-bottom">
-                        <h2>©2025 ADDSGN</h2>
-                        <h2>Made with code editor 💻 and coffee ☕</h2>
-                    </div>
-                </div>
+          <div class="p-footer-container">
+            <div class="p-footer-content">
+              <ul class="Listtt">
+                <h2>
+                  Web <br />
+                  Development
+                </h2>
+                <li><a href="/Web dev/webdev.html">Html & CSS</a></li>
+                <li><a href="/Web dev/webdev.html">Javascript</a></li>
+                <li><a href="/Web dev/webdev.html">ReactJS</a></li>
+                <li><a href="/Web dev/webdev.html">Jquery</a></li>
+                <li><a href="/Web dev/webdev.html">MongoDB</a></li>
+              </ul>
+              <ul class="Listtt">
+                <h2>
+                  Artificial <br />
+                  Intelligence (AI)
+                </h2>
+                <li>Python (TensorFlow, PyTorch)</li>
+                <li>R</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Julia</li>
+              </ul>
+              <ul class="Listtt">
+                <h2>
+                  Machine <br />
+                  Learning (ML)
+                </h2>
+                <li>Python (scikit-learn, Keras)</li>
+                <li>R</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>MATLAB</li>
+              </ul>
+              <ul class="Listtt">
+                <h2>
+                  Data <br />
+                  Science
+                </h2>
+                <li>Python (pandas, NumPy, Matplotlib)</li>
+                <li>R</li>
+                <li>SQL</li>
+                <li>Scala</li>
+                <li>Julia</li>
+              </ul>
+              <ul class="Listtt">
+                <h2>
+                  Mobile App <br />
+                  Development
+                </h2>
+                <li>Java (Android)</li>
+                <li>Kotlin (Android)</li>
+                <li>Swift (iOS)</li>
+                <li>Dart (Flutter)</li>
+                <li>JavaScript (React Native)</li>
+              </ul>
             </div>
+            <div class="p-footer-mcontent">
+              <div class="p-mcontent-top"></div>
+              <div class="p-mcontent-bottom">
+                <h2>©2025 ADDSGN</h2>
+                <h2>MADE WITH CODE EDITOR 💻 AND COFFEE ☕</h2>
+              </div>
+            </div>
+          </div>
         </footer>
+      </div>
     </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
-
-
-
-

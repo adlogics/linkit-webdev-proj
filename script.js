@@ -13,11 +13,11 @@ function showit() {
                 </ul>
                 <ul class="Listtt">
                     <h2>Artificial Intelligence (AI)</h2>
-                    <li>Python (TensorFlow, PyTorch)</li>
-                    <li>R</li>
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>Julia</li>
+                    <li><a href="/Web dev/webdev.html">Python (TensorFlow, PyTorch)</a></li>
+                    <li><a href="/Web dev/webdev.html">R</a></li>
+                    <li><a href="/Web dev/webdev.html">Java</a></li>
+                    <li><a href="/Web dev/webdev.html">C++</a></li>
+                    <li><a href="/Web dev/webdev.html">Julia</a></li>
                 </ul>
                 <ul class="Listtt">
                     <h2>Machine Learning (ML)</h2>
@@ -81,3 +81,31 @@ navburger.forEach(navitem => {
         hammenu.classList.toggle("active");
     })
 })
+
+
+// fetch video link data from json
+let thumbnailList = [];
+let thumbnailListHTML= document.getElementById("thumbnail-grid")
+
+const addDataToHTML = ()=>{
+    if(thumbnailList.length>0){
+        thumbnailList.forEach(video=>{
+            let thumbnail = document.createElement("div")
+            thumbnail.classList.add('video-thumbnail')
+            thumbnail.innerHTML = `<img src="${video.thumbnail}" alt="${video.title}">
+                                   <h3>${video.title}</h3>`;
+            thumbnail.onclick = ()=>window.open(video.link, '_blank')  
+            thumbnailListHTML.appendChild(thumbnail);                             
+    })
+    }
+}
+
+const videoFetch = ()=>{
+    fetch("links.json")
+.then(response=>response.json())
+.then(data=>{
+    thumbnailList = data;
+    addDataToHTML();
+})
+}
+videoFetch();
