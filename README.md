@@ -8,3 +8,8 @@
 - Regularly updated to include new, relevant content PS: Currently working and learning on adding more features like user profiles, favorites, user submitions!
 - Responsive design optimized for desktop and mobile
 - Designed to expand beyond coding into other learning domains
+
+## Future Scope
+- Limited usability now but it will grow and expand.
+- Improving search and filtering capabilities for easier navigation.
+- Incorporating community features like ratings and reviews.
